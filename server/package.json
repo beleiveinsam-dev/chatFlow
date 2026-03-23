@@ -1,0 +1,28 @@
+{
+    "name": "chatflow-server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "node --env-file .env --watch server.js"
+    },
+    "type": "module",
+    "keywords": [
+        "chat",
+        "real-time",
+        "learning",
+        "websocket"
+    ],
+    "author": "Piyush",
+    "license": "ISC",
+    "description": "ChatFlow Server - Learn, Chat, Flow. A learning project for real-time conversations",
+    "dependencies": {
+        "bcryptjs": "^3.0.2",
+        "cloudinary": "^2.7.0",
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.16.4",
+        "socket.io": "^4.8.1"
+    }
+}
